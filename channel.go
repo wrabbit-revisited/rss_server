@@ -1,4 +1,4 @@
-package rss_server
+package main
 
 import (
 	"bytes"

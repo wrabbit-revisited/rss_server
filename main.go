@@ -1,4 +1,4 @@
-package rss_server
+package main
 
 import (
 	"encoding/json"
@@ -14,8 +14,8 @@ import (
 )
 
 var (
-	addr   = flag.String("addr", ":10086", "http server listen port")
-	dbFile = flag.String("dbfile", ".anyrss.db", "db file path")
+	addr   = flag.String("addr", ":80", "http server listen port")
+	dbFile = flag.String("dbfile", ".rss.db", "db file path")
 )
 
 var (
